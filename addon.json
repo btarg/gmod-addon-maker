@@ -1,0 +1,11 @@
+{
+ "title"  : "My addon",
+ "type"  : "map",
+ "tags"  : [ "build", "fun" ],
+ "ignore" :
+ [
+  "*.psd",
+  "*.vcproj",
+  "*.svn*"
+ ]
+}

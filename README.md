@@ -1,6 +1,8 @@
 # gmod-addon-maker
 
-Simple tools for uploading GMA files to the Garry's Mod workshop.
+Some simple tools for uploading GMA files to the Garry's Mod workshop, using my Fancy Publisher Batch script.
+
+---
 
 :arrow_down: Download **Garry's Mod Addon Creator 1.0:**
 

@@ -1,6 +1,6 @@
 To turn a folder into a .gma file, drag and drop the folder onto "gmad.exe".
 
-Please read the Fancy Publisher warning for more info.
+Please read the startup message for more info.
 
 The "addon.json" file provided is a template, it's useful to keep this.
 

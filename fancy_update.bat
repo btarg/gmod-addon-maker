@@ -2,7 +2,7 @@
 title GMA Updater Batch Tool
 cls
 echo ------------------------------------------
-echo iCrazyBlaze's Garry's Mod Addon Updater
+echo iCrazyBlaze's Garry's Mod Addon Updater 
 echo ------------------------------------------
 echo.
 color C
@@ -18,12 +18,13 @@ pause >nul
 color 7
 cls
 echo ------------------------------------------
-echo iCrazyBlaze's Garry's Mod Addon Updater
+echo iCrazyBlaze's Garry's Mod Addon Updater 
 echo ------------------------------------------
 echo.
-set /p input1=GMA File to update: 
+set /p input1=GMA File to upload: 
 set /p input2=Workshop ID: 
 set /p input3=Changes description: 
+set /p input4=New thumbnail (512x512): 
 echo.
 
 IF EXIST "gmpublish.exe" goto exists
@@ -32,7 +33,7 @@ IF NOT EXIST "gmpublish.exe" goto nope
 :exists
 echo ==GMPUBLISH START==
 echo.
-gmpublish.exe update -addon %input1% -id %input2% -changes %input3%
+gmpublish.exe update -addon %input1% -id %input2% -icon %input4% -changes %input3%
 echo.
 echo ==GMPUBLISH END==
 echo.

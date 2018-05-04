@@ -8,4 +8,4 @@ The "addon.json" file provided is a template, it's useful to keep this.
 [Tools last compiled March 2018]
 
 
-https://icrazyblaze.github.io
+https://icrazyblaze.github.io/
